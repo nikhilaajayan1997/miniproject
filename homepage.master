@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="homepage.master.cs" Inherits="homepage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 1502px;
+            height: 443px;
+        }
+        .auto-style3 {
+            background-color: #FFE67D;
+        }
+ p.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	}
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td colspan="3">
+                    <img class="auto-style2" src="uploaded_file/nei.jpg" /></td>
+            </tr>
+            <tr>
+                <td class="auto-style3"><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/home.aspx">Home</asp:HyperLink>
+                    </td>
+                <td rowspan="7">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+                <td rowspan="7" style="background-color: #FFE682">&nbsp;<b style="mso-bidi-font-weight:normal"><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-bidi-theme-font:minor-bidi;color:#7030A0;mso-ansi-language:EN-IN;
+mso-fareast-language:EN-US;mso-bidi-language:AR-SA">NextDoor</span></b><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-bidi-theme-font:minor-bidi;color:#7030A0;mso-ansi-language:EN-IN;
+mso-fareast-language:EN-US;mso-bidi-language:AR-SA"> is a web based application developed in windows platform. This system provides <span style="font-size:12.0pt;line-height:107%;
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+color:#7030A0;mso-ansi-language:EN-IN;mso-fareast-language:EN-US;mso-bidi-language:
+AR-SA">services and shopping facilities to customers. It can help the customers to book workers&nbsp; such as plumbers, carpenter, electricians etc. and helps to purchase poultry products, organic agricultural products directly from farmers from their surroundings. User can place orders and make payment directly after the order placed<br />
+                    <br />
+                    The system is an online application that can be accessed where we stay with proper login&nbsp; provided. The login username and password will be sending by the admin through mail after the complete successful registration. The main key feature of this project is to help the customers to get high quality services and products from their surrounding itself. This system is proposed to help the workers and farmers to get high pay without any third party help. This provides a full-fledged platform for the providers and the customers to meet each other. Their username and password are send by the admin through mail. The system&nbsp; maintenance also handled by the admin<br />
+                    <br />
+                    The providers who are registered, can update their availability and charges. <span style="mso-spacerun:yes">&nbsp;</span>The customers can search and find their services or products in feasible cost. The customers can place their </span></span>
+                    <p class="MsoNormal" style="text-align: justify; color: #FFE67D; background-color: #FFE67D;">
+                        ff<span style="font-size:12.0pt;line-height:107%;
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+color:#7030A0;mso-ansi-language:EN-IN;mso-fareast-language:EN-US;mso-bidi-language:
+AR-SA">feedbacks, which is managed by the admin</span></p>
+                    <p class="MsoNormal" style="text-align: justify; color: #FFE67D; background-color: #FFE67D;">
+                        &nbsp;</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3"> <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/login.aspx">Login</asp:HyperLink>
+                    </td>
+            </tr>
+            <tr>
+                <td class="auto-style3">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/registration.aspx">Registration</asp:HyperLink>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    <img src="uploaded_file/-999x-999.gif" style="height: 193px; width: 147px" /></td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿.element {
+
+   position:absolute;
+    Height:652px;
+    Width:914px;
+    display:flex;
+     align-items:center;
+    justify-content:center;
+    top:0;bottom:0;right:0;left:0;
+    
+}
+#Image1 {
+}
+.cover {
+     width:100vw;
+    height:100vh;
+    justify-content:center;
+}
+.intro {
+  
+    background-color:rgba(255,255,255,0.57);
+    opacity:.5;
+    align-items:center;
+    justify-content:center;
+    width:600px;
+    height:200px;
+
+}
+.txt1 {
+     margin-top:4vh;
+    margin-left:6vw;
+    
+}
+.txt2 {
+   margin-top:7.4vh;
+    margin-left:6vw;
+}
+.txtstyle {
+     width:20vw;
+    height:6vh;
+    background-color:transparent;
+}

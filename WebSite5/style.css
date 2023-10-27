@@ -1,0 +1,48 @@
+﻿.image    
+ {    
+       
+     filter: alpha(opacity=60);    
+     width:5px;
+     height:5px;
+ }  
+.image:hover    
+ {    
+   opacity: 1.0;    
+   filter: alpha(opacity=100);    
+ } 
+.background      
+{    
+   
+    width: 500px;      
+    height: 250px;      
+    background: url('pink.jpg') no-repeat;      
+    border: 2px solid black;      
+    margin-top: 15px;      
+    margin-left: 15px;      
+}      
+.transbox      
+{      
+    width: 400px;      
+    height: 180px;      
+    margin: 30px 50px;      
+   background-color: red;      
+    border: 1px solid white;      
+    opacity: 0.5;      
+    filter: alpha(opacity=50);      
+}      
+.transbox p      
+{      
+    margin: 34px 49px;      
+    font-weight: bold;      
+    color: white;      
+}  
+.transbox      
+{      
+    width: 400px;      
+    height: 180px;      
+    margin: 30px 50px;      
+    background-color: red;      
+    border: 1px solid white;      
+    opacity: 1px;      
+    filter: alpha(opacity=50);      
+}  
